@@ -59,12 +59,12 @@ a:hover{
     transition: var(--transition-1); */
 }
 /* //hover color// */
-/* .nav-color{
+.nav-color{
     border: 1px solid red;
-} */
+}
 .navbar{
     /* background-image: url(../images/pasta.jpg); */
-    border: 3px solid blue;
+    border: 3px solid rgb(212, 212, 221);
 }
 
 
@@ -212,7 +212,7 @@ box-shadow: 0 10px 40px rgba(0,0,0,0.2);
 }
 #reservation .form-control:focus{
     box-shadow: none;
-    border-color: #F58d17;
+    border-color: #634728;
 
     
 }
@@ -233,7 +233,8 @@ box-shadow: 0 10px 40px rgba(0,0,0,0.2);
     }
 }
 footer{
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(/images/salad20.jpg);
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(/images/footer.jpg);
+   
     padding-top:120px;
     padding-bottom: 30px;
 

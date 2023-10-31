@@ -1,4 +1,5 @@
 // login js part
+console.log('login js');
 document.getElementById("loginForm").addEventListener("submit",function(event) {
     event.preventDefault();
     let usernames = document.getElementById("username").value;
