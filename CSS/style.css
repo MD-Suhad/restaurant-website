@@ -1,13 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Spline+Sans:wght@400;500;600;700&family=Ubuntu:wght@300&display=swap');
+:root{
+    --quick-silver:hsla(0,0%,65%,1);
+    --gold-crayola: hsl(38, 61%, 73%);
+  --quick-silver: hsla(0, 0%, 65%, 1);
+  --davys-grey: rgb(243, 238, 232);
+  --smoky-black-1: hsla(40, 12%, 5%, 1);
+  --smoky-black-2: hsla(30, 8%, 5%, 1);
+  --smoky-black-3: hsla(0, 3%, 7%, 1);
+  --eerie-black-1: hsla(210, 4%, 9%, 1);
+  --eerie-black-2: hsla(210, 4%, 11%, 1);
+  --eerie-black-3: hsla(180, 2%, 8%, 1);
+  --eerie-black-4: hsla(0, 0%, 13%, 1);
+  --white: hsla(0, 0%, 100%, 1);
+  --white-alpha-20: hsla(0, 0%, 100%, 0.2);
+  --white-alpha-10: hsla(0, 0%, 100%, 0.1);
+  --black: hsla(0, 0%, 0%, 1);
+  --black-alpha-80: hsla(0, 0%, 0%, 0.8);
+  --black-alpha-15: hsla(0, 0%, 0%, 0.15);
 
+  /* font- */
+}
 
 body{
-    font-family:"Spline Scans",sans-serif ;
+    background-color:var(--davys-grey);
     color:#777;
+    font-family:var(--fontFamily-dm_sans);
+    font-size:var(--fontSize-body-4);
+    font-weight:var(--weight-regular);
+    line-height:var(--lineHeight-5);
     line-height: 1.7;
     margin: 0 auto;
     padding: 0;
+    
+    height:300vh;
+    /* font-family:"Spline Scans",sans-serif ;
+    color:#777;
+    line-height: 1.7;
+    margin: 0 auto;
+    padding: 0; */
 }
+html {
+    
+    scroll-behavior: smooth;
+  }
 h1,h2,h3,h4,h5,h6{
     font-weight:800 ;
     color:#000;
@@ -18,15 +53,21 @@ a{
     font-weight: 600;
 }
 a:hover{
-    background-color: var(--gold-crayola);
+    background-color: var(--quick-silver);
     
     /* transform: translateY(-40px);
     transition: var(--transition-1); */
 }
 /* //hover color// */
-.nav-color{
-    background-color: var(--smoky-black-1);
+/* .nav-color{
+    border: 1px solid red;
+} */
+.navbar{
+    /* background-image: url(../images/pasta.jpg); */
+    border: 3px solid blue;
 }
+
+
 
 img{
     width:100%;
